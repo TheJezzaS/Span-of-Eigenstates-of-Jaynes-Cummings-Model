@@ -1,7 +1,3 @@
-# Bentley was here
-# Bentley was here again
-# Bentley was here yet again
-
 from numpy import zeros, linalg, linspace, array, shape
 from sys import exit # Terminates the code, used if n is odd
 import matplotlib.pyplot as plt
