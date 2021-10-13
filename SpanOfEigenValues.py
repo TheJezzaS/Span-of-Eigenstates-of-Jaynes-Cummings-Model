@@ -15,19 +15,19 @@ variable = []
 
 '''Choose a variable - only one!!! - leave the other two commented out'''
 
-'''Vary Ɛ'''
+'''Vary Ɛ''' #### ----coupling constant for fermion-boson interaction ----####
 variable.append('epsilon')
 g = 1
 M = 0
 epsilonArray = linspace(MinValue, MaxValue, NumOfPoints)
 
-'''Vary M'''
+'''Vary M''' #### ----coupling constantg for boson-boson interaction ----####
 # variable.append('M')
 # g = 1
 # MArray = linspace(MinValue, MaxValue, NumOfPoints)
 # epsilon = 1
 
-'''Vary g'''
+'''Vary g''' #### ----coupling constant M for fermion-fermion, and  ----####
 # variable.append('g')
 # gArray = linspace(MinValue, MaxValue, NumOfPoints)
 # M = 0
